@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  /*background-image: url('AravindCollage.png');*/
-  opacity: 0.5;
+  /*background-image: url('AravindCollage.png');
+  opacity: 0.5;*/
   background-size: cover;
   cursor: crosshair;
 }
