@@ -1,18 +1,19 @@
 body {
   margin: 0;
-  /*background-image: url('AravindCollage.png');
-  opacity: 0.5;*/
-  background-size: cover;
+  background-image: url('images/jeeva.jpg');
+  background-size: 100% 100%;
+  opacity: 0.8;
+  background-repeat: no-repeat;
   cursor: crosshair;
 }
 canvas{display:block}
 h1 {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-family: "Source Sans Pro";
+  font-family: "Edwardian Script ITC";
   font-size: 5em;
   font-weight: 900;
   -webkit-user-select: none;
