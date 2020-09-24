@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  background-image: url('images/mamtaMam.jpg');
+  background-size: 100% 100%;
+  opacity: 0.8;
+  background-repeat: no-repeat;
   cursor: crosshair;
 }
 canvas{display:block}
