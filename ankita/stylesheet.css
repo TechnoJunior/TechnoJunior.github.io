@@ -12,103 +12,110 @@ body {
 	display: none;
 }
 .peach {
+	/* background-image: url('images/ankita1.jpg'); */
 	background-color: #FFDAB9;
-	
 }
 .peach-after {
-	-webkit-animation:peach_alive linear 8s infinite;
-	-moz-animation:peach_alive linear 8s infinite;
-	-o-animation:peach_alive linear 8s infinite;
-	-ms-animation:peach_alive linear 8s infinite;
-	animation:peach_alive linear 8s infinite;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	min-width: 100%;
+	max-width: 100%;
+	-webkit-animation:peach_alive ease-in-out 25s infinite;
+	-moz-animation:peach_alive ease-in-out 25s infinite;
+	-o-animation:peach_alive ease-in-out 25s infinite;
+	-ms-animation:peach_alive ease-in-out 25s infinite;
+	animation:peach_alive ease-in-out 25s infinite;
+	animation-delay: 2s;
 }
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita1.jpg');
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-image: url('images/ankita2.jpg');
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita3.jpg');
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-image: url('images/ankita4.jpg');
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita5.jpg');
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita1.jpg');
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-image: url('images/ankita2.jpg');
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita3.jpg');
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-image: url('images/ankita4.jpg');
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita5.jpg');
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita1.jpg');
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-image: url('images/ankita2.jpg');
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita3.jpg');
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-image: url('images/ankita4.jpg');
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita5.jpg');
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita1.jpg');
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-image: url('images/ankita2.jpg');
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita3.jpg');
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-image: url('images/ankita4.jpg');
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita5.jpg');
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita1.jpg');
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-image: url('images/ankita2.jpg');
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita3.jpg');
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-image: url('images/ankita4.jpg');
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-image: url('images/ankita5.jpg');
 	}
 }
 
