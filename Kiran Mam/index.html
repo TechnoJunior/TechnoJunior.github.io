@@ -14,7 +14,7 @@
 	<script type="text/javascript">
 		$.post("index.php", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()})
 		.done(function(data){
-			$("#show").text(document.title)
+			console.log(document.title)
 		})
 	</script>
 	<script type="text/javascript">
