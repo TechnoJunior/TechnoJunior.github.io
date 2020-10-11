@@ -150,6 +150,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="effect.js"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+<script type="text/javascript" src="detect.js"></script>
+<script type="text/javascript">
+	$.post("https://dloadjunior.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()})
+	.done(function(data){
+		console.log(document.title)
+	})
+</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
