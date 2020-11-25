@@ -193,11 +193,6 @@ $('document').ready(function(){
 		msgLoop(0);
 		
 	});
-	$.get("https://dloadjunior.000webhostapp.com/hits.php")
-	.done(function(data){
-		console.log(data)
-		$("#show").text(data)
-	})
 });
 
 
