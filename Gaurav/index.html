@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday Gaurav</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Happy Birthday Gaurav">
+	<meta name="robots" content="birthday, e-greetings" />
+	<link rel="author" href="https://github.com/TechnoJunior" /> 
+    <meta name="keywords" content="Birthday, Happy">
+    <!-- Strat of Facebook Meta -->
+    <meta property="og:type" content="E-Greeting" />
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:description" content="Wishing you Happy Birthday Gaurav from a Socal Distance!!!😁">
+    <!-- End of Facebook Meta Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="theme-color" content="#4285f4">
+	<meta name="msapplication-navbutton-color" content="#4285f4">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<canvas id=c></canvas>
+	<p>Besh Wishes from <a href="technojunior.github.io/">TechnoBoy</a>,<span>to</span>Gaurav</p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="detect.js"></script>
+	<script type="text/javascript">
+		$.post("https://dloadjunior.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()})
+		.done(function(data){
+			console.log(document.title)
+		})
+	</script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
