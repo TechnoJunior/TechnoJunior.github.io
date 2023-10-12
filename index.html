@@ -17,6 +17,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="detect.js"></script>
 </head>
 	<body>
 		<div class="container">
@@ -76,10 +77,10 @@
 			}
 			
 
-			/*$.post("https://dloadjunior.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()})
+			$.post("https://codebytechnoboy.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()})
 			.done(function(data){
 				console.log(document.title)
-			})*/
+			})
 		</script>
 	</body>
 </html>
