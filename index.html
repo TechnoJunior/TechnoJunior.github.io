@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="TechnoBoy">
 	<meta property="og:description" content="Welcome to my Website, TechnoBoy">
-	<meta property="og:image" content="https://technojunior.github.io/android-chrome-512x512.png">
+	<meta property="og:image" itemprop="image" content="https://technojunior.github.io/android-chrome-512x512.png">
     <!-- End of Facebook Meta Tags -->
 	
 	<!-- Start of Twitter Meta Tags -->
