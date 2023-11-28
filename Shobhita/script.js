@@ -1,4 +1,5 @@
 $(function() {
+
 	var data = [
 	{ 
 	  action: 'type',
@@ -20,8 +21,8 @@ $(function() {
 	},
 	{ 
 	  action: 'type',
-	  strings: ["php artisan generate:birthday_wish Shobhita^400"],
-	  output: $('.mimik-run-output').html(),
+	  strings: ["php artisan generate:birthday_wish Shobhita --with=stegano_encryption^400"],
+	  output: $('.mimik-run-output').html()+'<br>&nbsp;',
 	  postDelay: 2000
 	}
 	
