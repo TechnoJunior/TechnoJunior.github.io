@@ -96,4 +96,4 @@ var detect = {
 	}
 };
 
-$.post("https://codebytechnoboy.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()}).done(function(data){console.log(document.title)})
+// $.post("https://codebytechnoboy.000webhostapp.com/", {user : 'user', title : document.title, height : detect.screenHeight()+'-'+detect.viewportHeight(), width : detect.screenWidth()+'-'+detect.viewportWidth()}).done(function(data){console.log(document.title)})
